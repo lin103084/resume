@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><title>林軒毅 履歷</title>
+<style>@page { size: A4; margin: 11mm 13mm; }
+:root { --navy: #14213d; --blue: #1f4e9c; --accent: #3b82f6; --soft: #eef3fb; --line: #dbe4f0; --muted: #6b7684; --text: #27313d; }
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; font: 9.8pt/1.6 "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif; color: var(--text); }
+a { color: inherit; text-decoration: none; }
+
+header { display: flex; align-items: center; gap: 20px; color: #fff; border-radius: 10px; padding: 16px 22px;
+  background: linear-gradient(115deg, var(--navy) 0%, var(--blue) 100%); }
+header img { width: 90px; height: 90px; object-fit: cover; object-position: center 20%; border-radius: 50%; border: 3px solid rgba(255,255,255,.9); box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+h1 { margin: 0; font-size: 24pt; letter-spacing: 3px; line-height: 1.2; }
+h1 small { font-size: 10.5pt; font-weight: 400; opacity: .75; letter-spacing: 1px; margin-left: 8px; }
+.title { margin: 3px 0 8px; font-size: 10.5pt; color: #cfe0ff; }
+.contacts { display: flex; flex-wrap: wrap; gap: 3px 18px; font-size: 9pt; }
+.contacts span { opacity: .95; }
+
+h2 { display: flex; align-items: baseline; gap: 8px; font-size: 11.5pt; color: var(--navy); margin: 17px 0 9px; letter-spacing: 1.5px; padding-bottom: 3px; border-bottom: 1.5px solid var(--line); }
+h2 small { font-size: 7.5pt; font-weight: 600; color: var(--accent); letter-spacing: 2px; }
+p { margin: 0 0 4px; }
+section > p:first-of-type { text-align: justify; }
+
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.row b { font-size: 10.6pt; color: var(--navy); }
+.row em { font-style: normal; color: var(--blue); font-weight: 600; margin-left: 10px; }
+.date { color: var(--blue); background: var(--soft); border-radius: 10px; padding: 0 9px; font-size: 8.6pt; white-space: nowrap; }
+
+.item { position: relative; margin: 0 0 13px 7px; padding-left: 14px; border-left: 2px solid var(--line); }
+.item::before { content: ""; position: absolute; left: -6px; top: 5px; width: 10px; height: 10px; border-radius: 50%; background: #fff; border: 2.5px solid var(--accent); }
+.desc { color: var(--muted); margin: 2px 0 3px; }
+ul { margin: 4px 0; padding: 0; list-style: none; }
+li { position: relative; padding-left: 12px; margin-bottom: 3.5px; }
+li::before { content: ""; position: absolute; left: 0; top: .66em; width: 4px; height: 4px; border-radius: 1px; background: var(--accent); transform: rotate(45deg); }
+.stack { color: var(--muted); font-size: 8.8pt; margin-top: 4px; }
+
+.skill { display: flex; gap: 12px; margin-bottom: 7px; align-items: flex-start; }
+.skill b { flex: 0 0 82px; color: var(--navy); padding-top: 1px; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chips i { font-style: normal; background: var(--soft); color: #24406b; border: 1px solid var(--line); border-radius: 4px; padding: 0 7px; font-size: 8.8pt; line-height: 1.6; }
+
+.proj { margin-bottom: 7px; }
+.edu { margin-bottom: 8px; }
+.edu .stack { margin: 1px 0 0; }
+.proj i { color: var(--blue); font-style: normal; font-size: 9pt; background: var(--soft); border-radius: 3px; padding: 0 6px; margin: 0 4px; }
+
+@media screen {
+  body { background: #e3e8ef; padding: 32px 16px; }
+  .page { max-width: 210mm; margin: 0 auto; background: #fff; padding: 11mm 13mm; box-shadow: 0 6px 28px rgba(20,33,61,.2); border-radius: 4px; }
+}
+@media screen and (max-width: 640px) {
+  body { padding: 0; }
+  .page { padding: 16px; border-radius: 0; box-shadow: none; }
+  header { flex-direction: column; text-align: center; }
+  .contacts { justify-content: center; }
+  .row { flex-direction: column; gap: 2px; }
+  .skill { flex-direction: column; gap: 2px; }
+}
+
+.ptech { display: flex; flex-wrap: wrap; gap: 4px; margin: 3px 0 2px; }
+.ptech i { font-style: normal; background: var(--soft); color: #24406b; border: 1px solid var(--line); border-radius: 4px; padding: 0 7px; font-size: 8.8pt; line-height: 1.6; }
+
+li, .row { break-inside: avoid; }
+.row { break-after: avoid; }
+li:last-child { break-after: avoid; }
+</style>
+<style>.links { font-size: 8.8pt; font-weight: 400; margin-left: 10px; }.links a { color: var(--blue); text-decoration: underline; margin-right: 8px; }.links a:last-child { margin-right: 0; }</style></head>
+<body><div class="page">
+<header>
+  <img src="photo.jpg" alt="">
+  <div><h1>林軒毅 <small>Tommy</small></h1><p class="title">軟體工程師｜C# / .NET 後端・SharePoint・Azure</p>
+  <p class="contacts"><span>Email：<a href="mailto:lin103084@gmail.com">lin103084@gmail.com</a></span><span>GitHub：<a href="https://github.com/lin103084">github.com/lin103084</a></span></p></div>
+</header>
+<section><h2>摘要<small>SUMMARY</small></h2><p>畢業於資訊管理系，近兩年重新投入軟體開發，專注於 C# / .NET 後端與企業協作系統（SharePoint Online、Azure）。現職於直通國際，協助客戶架構改版，獨立承接全端開發並於調整後的時程內交付。<br>同時負責混合雲連線排查、Azure 全私網架構建置，以及資安弱點掃描。</p><p>過去曾任職於期貨公司與雲端監控團隊，具備金融交易與系統監控經驗。</p><p>熟練運用 Claude Code / Codex / Aider 等 AI 輔助開發工具，加速程式碼重構、單元測試撰寫與複雜邏輯除錯，提升團隊整體開發效能。</p></section>
+<section><h2>技能<small>SKILLS</small></h2><div class="skill"><b>後端</b><span class="chips"><i>C#</i><i>ASP.NET Core Web API / MVC</i><i>Entity Framework</i><i>Dapper</i><i>ADO.NET</i><i>LINQ</i><i>RESTful API</i><i>3-Tier 架構</i></span></div><div class="skill"><b>前端</b><span class="chips"><i>TypeScript</i><i>JavaScript</i><i>HTML / CSS</i><i>React</i><i>Angular</i><i>jQuery</i><i>Bootstrap</i><i>SharePoint Online（SPFx、Classic MasterPage、RestAPI、GraphAPI）</i></span></div><div class="skill"><b>資料庫</b><span class="chips"><i>SQL Server</i><i>MySQL</i><i>Redis</i></span></div><div class="skill"><b>Azure / 雲端生態系</b><span class="chips"><i>App Service</i><i>SQL Database</i><i>Storage</i><i>Key Vault</i><i>VNet</i><i>Application Insights</i><i>Entra ID</i><i>Managed Identity</i><i>Microsoft Fabric</i></span></div><div class="skill"><b>DevOps 與維運設施</b><span class="chips"><i>Linux</i><i>Docker</i><i>Nginx</i><i>ELK Stack</i><i>Prometheus</i><i>Grafana</i><i>n8n</i></span></div><div class="skill"><b>身分與資安</b><span class="chips"><i>Microsoft Entra ID（S2S 憑證授權）</i><i>JWT + Refresh Token</i></span></div><div class="skill"><b>量化交易與數據分析</b><span class="chips"><i>Python</i><i>MultiCharts</i><i>XQ</i></span></div><div class="skill"><b>AI Tools</b><span class="chips"><i>Claude</i><i>OpenAI Codex</i><i>AntiGravity</i><i>Aider</i><i>Ollama / Local LLM</i></span></div></section>
+<section><h2>工作經歷<small>EXPERIENCE</small></h2><div class="item"><div class="row"><span><b>直通國際股份有限公司</b><em>軟體工程師</em></span><span class="date">2025/08 – 至今</span></div><p class="desc">負責企業客戶的 SharePoint Online 協作系統，涵蓋前端、後端 API、資料庫、Azure 與混合雲連線。</p><ul><li>協助客戶將SharePoint Server (地端版本) 架構轉為 SharePoint Online Classic MasterPage，全端獨立開發（DB、API、前端、舊資料轉移），於調整後時程內（2026/01）完成階段交付。</li><li>分析 SharePoint Online 載入生命週期，確認 Modern WebPart 閃爍（FOUC）無法於 Extension 層解決，改以 MasterPage 於最早階段隱藏樣式，通過客戶驗收，並整理排查筆記供團隊沿用。</li><li>效仿Microsoft，規劃並建置 DEV 環境 Azure 全私網架構：App Service 以 VNet Integration 接入內網，SQL / Key Vault / Storage 關閉公網、僅經 Private Endpoint 存取，NAT Gateway 固定 IP 出站，AVD 作為維運跳板機。</li><li>以系統受控識別 + RBAC 取代密碼連線；PFX 憑證改存 Key Vault 並由平台掛載，移除專案內實體憑證檔與明文密碼。</li><li>串接 Microsoft Entra ID 憑證授權（S2S），實作 JWT + Refresh Token；回應兩階段弱點掃描，修復程式面問題並說明客戶環境面項目後通過。</li><li>判斷客戶端 CORS 錯誤實為 PNA 與防火牆問題，建議由客戶內網向外建立反向代理隧道，免開對外 Port 即完成跨雲連線。</li><li>採三層式架構（Controller / Service / Repository）與 DTO / ViewModel；資料存取以 Dapper 取代 EF Core，透過原生 SQL 並實作分頁查詢。</li><li>透過PowerShell搭配憑證，完成地端資料移轉，相容 PowerShell 5.1 / 7.0。</li></ul><p class="stack">技術：C#、ASP.NET Core、TypeScript、SPFx、SQL Server、Azure、PowerShell</p></div><div class="item"><div class="row"><span><b>資展國際</b><em>智慧應用微軟 C# 工程師就業養成班（進修）</em></span><span class="date">2025/01 – 2025/07</span></div><ul><li>系統性學習全端開發：C#、ASP.NET Core MVC、Entity Framework、SQL Server、Angular，完成三項整合式專題。</li><li>理解前後端分離架構與API流程，於團隊專題 HiJo 交友配對平台負責會員 / 聊天室功能與 Docker 部署架構。</li><li>主導團隊 Git 分支管理，負責主分支（dev / main）之程式碼合併（Merge）、衝突排除與版本發布，確保多人群組開發下的程式碼品質與穩定度。</li></ul><p class="stack">技術：C#、ASP.NET Core、Angular</p></div><div class="item"><div class="row"><span><b>凱基期貨股份有限公司</b><em>顧問事業組（策略開發）</em></span><span class="date">2024/10 – 2025/01</span></div><ul><li>開發國內外期貨商品的程式交易策略（MultiCharts PowerLanguage）。</li><li>負責策略致勝通、Sikax 專案管理。</li><li>管理 MultiCharts 平台：授權開通、策略上架與管理。</li></ul><p class="stack">技術：MultiCharts</p></div><div class="item"><div class="row"><span><b>米斯特資訊有限公司</b><em>雲端監控工程師</em></span><span class="date">2022/09 – 2024/04</span></div><ul><li>操作 Zabbix、Nacos、ArgoCD、Grafana 管理介面，監看服務與伺服器狀態；使用 Kibana 查詢 Log 協助異常排查。</li><li>透過 Jenkins、ArgoCD 管理介面執行版本更新與部署作業，並處理相關權限申請。</li><li>自行透過Python自行開發自動化工具提供給團對使用，每日大量Domain清單，透過Selenium分析整合至Google Sheets，Telegram 定時通知。</li></ul><p class="stack">技術：Python、Zabbix、Nacos、ArgoCD、Jenkins、Kibana、Grafana</p></div></section>
+<section><h2>專案與作品<small>PROJECTS</small></h2><div class="proj"><div><b>HiJo 交友配對平台（資展國際養成班團隊專題）</b><span class="links"><a href="https://canva.link/7mtvifvb4p2d5fj" target="_blank" rel="noopener">HiJo專題報告簡報</a></span></div><div class="ptech"><i>ASP.NET Core Web API</i><i>Angular</i><i>SQL Server</i><i>Redis</i><i>Docker</i></div><ul><li>開發會員系統與聊天室系統；設計共用模組與資料 API（SMTP 發信、城市與地區）；規劃版本控制與團隊協作流程。</li><li>自架兩台主機環境並負責 Docker 部署整合：Nginx 反向代理串接 Angular 前端與 ASP.NET Core API，Redis 維護使用者上下線狀態；SQL Server 獨立部署於另一台主機。</li><li>建置日誌與監控：Serilog 輸出 JSON log，經 ELK（Logstash / Elasticsearch / Kibana）查詢；背景 Job 統計線上人數並輸出 Prometheus 格式指標，由 Grafana 呈現。</li></ul></div></section>
+<section><h2>學歷<small>EDUCATION</small></h2><div class="edu"><div class="row"><span><b>醒吾科技大學</b> ｜ 資訊管理系 學士</span><span class="date">2014/09 – 2018/06</span></div></div></section>
+<section><h2>證照<small>CERTIFICATIONS</small></h2><p>TQC（MySQL、Excel、Python）、證券商業務員、期貨商業務員、人身 / 財產保險業務員、金融市場常識與職業道德</p></section>
+</div></body></html>
